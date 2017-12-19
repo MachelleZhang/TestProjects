@@ -14,6 +14,11 @@
 		01B917151FE24C3F004F556E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B917141FE24C3F004F556E /* FirstViewController.swift */; };
 		01B917171FE24C4B004F556E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B917161FE24C4B004F556E /* SecondViewController.swift */; };
 		01B9171B1FE25E1C004F556E /* MyPopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9171A1FE25E1C004F556E /* MyPopAnimation.swift */; };
+		01FE78861FE8C13000873F9C /* MyPresentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE78851FE8C13000873F9C /* MyPresentAnimation.swift */; };
+		01FE78881FE8C14400873F9C /* MyDismissAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE78871FE8C14400873F9C /* MyDismissAnimation.swift */; };
+		01FE788A1FE8C15500873F9C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE78891FE8C15500873F9C /* ThirdViewController.swift */; };
+		01FE788C1FE8C16500873F9C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE788B1FE8C16500873F9C /* FourthViewController.swift */; };
+		01FE788E1FE8FF0400873F9C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE788D1FE8FF0400873F9C /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		01B917141FE24C3F004F556E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		01B917161FE24C4B004F556E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		01B9171A1FE25E1C004F556E /* MyPopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPopAnimation.swift; sourceTree = "<group>"; };
+		01FE78851FE8C13000873F9C /* MyPresentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPresentAnimation.swift; sourceTree = "<group>"; };
+		01FE78871FE8C14400873F9C /* MyDismissAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDismissAnimation.swift; sourceTree = "<group>"; };
+		01FE78891FE8C15500873F9C /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		01FE788B1FE8C16500873F9C /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		01FE788D1FE8FF0400873F9C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +68,37 @@
 		01B916FF1FE2159A004F556E /* TransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				01FE78901FE8FF1800873F9C /* Present&Dismiss */,
+				01FE788F1FE8FF0B00873F9C /* Push&Pop */,
 				01B917001FE2159A004F556E /* AppDelegate.swift */,
+				01FE788D1FE8FF0400873F9C /* MainViewController.swift */,
 				01B917071FE2159A004F556E /* Assets.xcassets */,
 				01B917091FE2159A004F556E /* LaunchScreen.storyboard */,
 				01B9170C1FE2159A004F556E /* Info.plist */,
+			);
+			path = TransitionAnimation;
+			sourceTree = "<group>";
+		};
+		01FE788F1FE8FF0B00873F9C /* Push&Pop */ = {
+			isa = PBXGroup;
+			children = (
 				01B917121FE24BB8004F556E /* MyPushAnimation.swift */,
 				01B9171A1FE25E1C004F556E /* MyPopAnimation.swift */,
 				01B917141FE24C3F004F556E /* FirstViewController.swift */,
 				01B917161FE24C4B004F556E /* SecondViewController.swift */,
 			);
-			path = TransitionAnimation;
+			path = "Push&Pop";
+			sourceTree = "<group>";
+		};
+		01FE78901FE8FF1800873F9C /* Present&Dismiss */ = {
+			isa = PBXGroup;
+			children = (
+				01FE78851FE8C13000873F9C /* MyPresentAnimation.swift */,
+				01FE78871FE8C14400873F9C /* MyDismissAnimation.swift */,
+				01FE78891FE8C15500873F9C /* ThirdViewController.swift */,
+				01FE788B1FE8C16500873F9C /* FourthViewController.swift */,
+			);
+			path = "Present&Dismiss";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +175,13 @@
 				01B917171FE24C4B004F556E /* SecondViewController.swift in Sources */,
 				01B9171B1FE25E1C004F556E /* MyPopAnimation.swift in Sources */,
 				01B917151FE24C3F004F556E /* FirstViewController.swift in Sources */,
+				01FE788C1FE8C16500873F9C /* FourthViewController.swift in Sources */,
 				01B917131FE24BB8004F556E /* MyPushAnimation.swift in Sources */,
+				01FE78861FE8C13000873F9C /* MyPresentAnimation.swift in Sources */,
 				01B917011FE2159A004F556E /* AppDelegate.swift in Sources */,
+				01FE788A1FE8C15500873F9C /* ThirdViewController.swift in Sources */,
+				01FE78881FE8C14400873F9C /* MyDismissAnimation.swift in Sources */,
+				01FE788E1FE8FF0400873F9C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
