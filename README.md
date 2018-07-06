@@ -17,7 +17,7 @@
 3 $git init
 // 添加远程仓库路径
 4 $git remote add -f origin https://github.com/MachelleZhang/TestProjects.git
-// 允许单个克隆单个文件夹
+// 允许克隆单个文件、文件夹
 5 $git config core.sparsecheckout true
 // 添加需要克隆的文件、文件夹到配置文件中
 6 $echo "examples/flaskr" >> .git/info/sparse-checkout
