@@ -9,7 +9,7 @@
 
 #### 克隆单个项目
 
-```console
+```ruby
 // 创建本地文件夹
 1 $mkdir project_folder
 2 $cd project_folder
