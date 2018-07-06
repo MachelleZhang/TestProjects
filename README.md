@@ -1,14 +1,15 @@
 ## 测试、学习工程
 
 #### 目录
+
 名称 | 描述
-- | -
-CoreAnimation | 核心动画
-TransitionAnimation | 转场动画
+--- | ---
+<font color="#00aaff">CoreAnimation</font> | 核心动画
+<font color="#00aaff">TransitionAnimation</font> | 转场动画
 
 #### 克隆单个项目
 
-```ruby
+```console
 // 创建本地文件夹
 1 $mkdir project_folder
 2 $cd project_folder
